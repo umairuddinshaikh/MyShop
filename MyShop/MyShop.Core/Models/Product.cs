@@ -23,7 +23,7 @@ namespace MyShop.Core.Models
 
         public Product()
         {
-            this.Id = new Guid().ToString();
+            this.Id = Guid.NewGuid().ToString();
         }
 
 
